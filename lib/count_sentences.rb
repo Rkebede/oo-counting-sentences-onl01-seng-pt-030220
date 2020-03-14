@@ -28,9 +28,6 @@ class String
 
   def count_sentences
     
-    self.squeeze('.!?') do |sentence|
-      return sentence.count
-     end
   end
   
 end
