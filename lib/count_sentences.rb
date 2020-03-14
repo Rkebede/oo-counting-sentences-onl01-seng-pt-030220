@@ -31,8 +31,6 @@ class String
    sentence.reject do |element|
     if element.nil? || element == ''
       return 0
-    else 
-      return sentence.count
     end
     end
   end
