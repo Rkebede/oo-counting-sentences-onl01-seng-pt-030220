@@ -34,6 +34,7 @@ class String
     else 
       return sentence.count
     end
+    end
   end
   
 end
