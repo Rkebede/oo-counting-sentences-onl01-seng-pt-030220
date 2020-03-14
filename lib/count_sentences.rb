@@ -33,6 +33,7 @@ class String
       return 0
     end
     end
+    return sentence.count
   end
   
 end
