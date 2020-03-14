@@ -32,7 +32,7 @@ class String
   #   if element.nil? || element == ''
   #     return 0
   #   end
-    end
+  # end
     return sentence.count
   end
   
