@@ -29,8 +29,8 @@ class String
   def count_sentences
    sentence = self.split(".")
    sentence.reject do |element|
-    if element.nil? 
-      return element.count
+    if element.nil? || element == ''
+      return 0
     else 
       return sentence.count
     end
