@@ -29,7 +29,7 @@ class String
   def count_sentences
     
     self.squeeze('.!?') do |sentence|
-      sentence = sentence.split(".")
+      return sentence.count
      end
   end
   
