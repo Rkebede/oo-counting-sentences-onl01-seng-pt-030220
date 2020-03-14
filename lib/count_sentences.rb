@@ -31,7 +31,6 @@ class String
    sentence.squeeze(" ") do |words|
      return words.count
      end
-    end
   end
   
 end
