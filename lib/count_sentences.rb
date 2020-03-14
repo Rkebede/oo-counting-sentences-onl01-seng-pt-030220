@@ -32,7 +32,7 @@ class String
      element.blank?
     return sentence.count
     end
-end
+  end
   
 end
 
