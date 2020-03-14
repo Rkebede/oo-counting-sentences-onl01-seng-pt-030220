@@ -29,7 +29,7 @@ class String
   def count_sentences
    sentence = self.split(".")
    sentence.reject do |element|
-     element.blank?
+     element
     return sentence.count
     end
   end
