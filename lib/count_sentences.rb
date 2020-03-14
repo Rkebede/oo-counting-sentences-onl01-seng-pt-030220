@@ -11,7 +11,11 @@ class String
   end
 
   def question?
-
+    if self.question?
+      return true
+    else
+      return false
+    end 
   end
 
   def exclamation?
