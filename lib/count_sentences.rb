@@ -27,13 +27,11 @@ class String
   end
 
   def count_sentences
-   sentence = self.split(".")
-  # sentence.reject do |element|
-  #   if element.nil? || element == ''
-  #     return 0
-  #   end
+    
+    sentence = sentence.squeeze(" ")
+  # sentence = self.split(".")
+  #   return sentence.count
   # end
-    return sentence.count
   end
   
 end
