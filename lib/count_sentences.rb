@@ -27,11 +27,9 @@ class String
   end
 
   def count_sentences
-    
-    sentence = sentence.squeeze(" ")
-  # sentence = self.split(".")
-  #   return sentence.count
-  # end
+   sentence = self.split(".")
+   sentence.squeeze(" ") do |words|
+     return words.count
   end
   
 end
