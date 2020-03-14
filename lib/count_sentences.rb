@@ -30,6 +30,8 @@ class String
    sentence = self.split(".")
    sentence.reject do |element|
     if element.nil? || element == ''
+      return sentence
+    else 
       return sentence.count
     end
   end
